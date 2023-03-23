@@ -1,0 +1,1291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oluwalonimi Oyepariola's Portfolio</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="icon.jpg" type="image/x-icon">
+
+
+
+
+
+
+
+<!-- OFFLINE FILES -->
+  <!-- <link href="bootstrap.min.css" rel="stylesheet"> -->
+    <!-- <script src="bootstrap.bundle.min.js"></script> -->
+    <link rel="stylesheet" href="css/all.css">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <script src="typing.js"></script>
+
+
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.bundle.min.js"></script>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <style>
+        .bd-placeholder-img {
+          font-size: 1.125rem;
+          text-anchor: middle;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          user-select: none;
+        }
+
+        @media (min-width: 768px) {
+          .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+          }
+        }
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+        }
+
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 62em) {
+     .featurette-heading {
+         margin-top: 7rem;
+    }
+}
+
+
+
+
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+     bottom: 3rem;
+     z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+     height: 32rem;
+}
+.carousel-item > img {
+     position: absolute;
+     top: 0;
+     left: 0;
+     min-width: 100%;
+     height: 32rem;
+}
+
+</style>
+
+
+</head>
+<body>
+    <header class="header" id="header" >
+        <nav class="nav container1">
+            <a href="#" class="nav__logo">NIMI </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+    <!--======================================================================== -->
+                    <li class="nav__item" onclick="games(this)">
+                        <a href="#home" class="nav__link">
+                            <i class="fas fa-home nav__icon"></i> Home
+                        </a>
+                    </li>
+<!-- ------------------------------------------------- -->
+                    <li class="nav__item" onclick="games(this)">
+                        <a href="#about" class="nav__link">
+                            <i class="fas fa-address-book nav__icon"></i>
+                            About
+                        </a>
+                    </li>
+<!-- --------------------------------------------------- -->
+                    <li class="nav__item" onclick="games(this)">
+                        <a href="#skills" class="nav__link">
+                            <i class="fas fa-briefcase nav__icon"></i>
+                            Skills
+                        </a>
+                    </li>
+<!-- ------------------------------------------------ -->
+                    <li class="nav__item" onclick="games(this)">
+                        <a href="#services" class="nav__link">
+                            <i class="fas fa-blog nav__icon"></i>
+                            Services
+                        </a>
+                    </li>
+<!-- --------------------------------------------------------- -->
+                    <li class="nav__item" onclick="games(this)">
+                        <a href="#portfolio" class="nav__link">
+                            <i class="fas fa-user nav__icon"></i>
+                            Portfolio
+                        </a>
+                    </li>
+<!-- -------------------------------------------- -->
+                    <li class="nav__item" onclick="games(this)">
+                        <a href="#contact" class="nav__link">
+                            <i class="fas fa-address-book nav__icon"></i>
+                            Contact
+                        </a>
+                    </li>
+<!-- ================================================================================== -->
+
+                </ul>
+                <i class="fas fa-times nav__close" id="nav-close" onclick="games(this)"></i>
+            </div>
+            <div class="nav__btns">
+
+                <!-- dark or light mode -->
+
+                <input type="checkbox" class="fas fa-moon toggle-button" onclick="myFunction()">
+                <div class="nav__toggle" id="nav-toggle" onclick="wed(this)" >
+                    <i class="fas fa-home-user"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="home__container1 container1 grid">
+
+                <!-- ============================================== -->
+                <div class="home__content grid">
+                    <div class="home__social" data-aos="fade-right"
+                    data-aos-anchor="#example-anchor"
+                    data-aos-offset="500"
+                    data-aos-duration="1000"
+                    data-aos-delay="1500">
+                        <a href="https://github.com/oyepariolaoluwalonimi" class="home__social-icon" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+
+                        <a href="https://instagram.com/luxcreations__" class="home__social-icon" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a href="#" class="home__social-icon" target="_blank">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__img" data-aos="fade-left"
+                    data-aos-anchor="#example-anchor"
+                    data-aos-offset="500"
+                    data-aos-duration="1000"
+                    data-aos-delay="1000">
+                        <!-- =====================================CIRCLE==================================================================== -->
+                        <svg class="home__blob" xmlns="http://www.w3.org/2000/svg"
+                         viewBox="0 0 512 512">
+                             <mask id="mask0" mask-type="alpha">
+                             <path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512z"/>
+                             </mask>
+
+                             <g mask="url(#mask0)">
+                                <path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512z"/>
+                            <image class="home__blob-img" x="-90px" y="-40px" xlink:href='big1.jpg'>
+                            </g>
+                            </svg>
+                  <!-- ============================================== -->
+                    </div>
+                    <div class="home__data" data-aos="fade-right" data-aos-duration="1000">
+                        <h1 class="home__title"><span class="hi">Hi,</span> my name is Oluwalonimi</h1>
+                       <h3 class="home__subtitle">I'm a <span class="home__subtitle typewrite" data-period="1000" data-type='["Frontend Developer", "Graphics Designer"]'>
+                            <span class="wrap"></span>   
+                        </h3>
+                    </span> 
+                          <span id="element"></span>
+                            <p class="home__description">
+                                High Level experience in web design and graphics design, producing quality works</p>
+                                <a href="#contact" class="button button--flex">
+                                Contact Me <i class='fas fa-message button__icon'></i>
+                            </a>
+                    </div>
+                </div>
+
+
+<!-- =========================================================================== -->
+
+                <!-- <div class="home__scroll">
+                    <a href="#" class="home__scroll-button button--flex">
+                        <i class="fas fa-mouse home__scroll-mouse"></i>
+                        <span class="home__scroll-name">Scroll down</span>
+                        <i class="fas fa-arrow-down home__scroll-arrow"></i>
+                    </a>
+
+                </div> -->
+
+
+                <!-- ========================================================== -->
+            </div>
+        </section>
+
+<!-- ========================ABOUT AABOUT ABOUT ABOUT ABOUT =========================== -->
+        <section class="about section" id="about">
+            <h2 class="section__title"
+            data-aos="flip-down"
+            data-aos-duration="500"
+            data-aos-delay="200">About Me</h2>
+            <span class="section__subtitle"
+            data-aos="flip-down"
+            data-aos-duration="500"
+            data-aos-delay="600">My introduction</span>
+        <div data-aos="fade-right"
+        data-aos-duration="500"
+        data-aos-delay="800">
+            <div class="px-4 py-5 my-5 text-center">
+                <svg class="home__blob d-block mx-auto mb-4 sqr" viewBox="0 0 448 512">
+                    <mask>
+                    <path d="M384 32C419.3 32 448 60.65 448 96V416C448 451.3 419.3 480 384 480H64C28.65 480 0 451.3 0 416V96C0 60.65 28.65 32 64 32H384zM384 80H64C55.16 80 48 87.16 48 96V416C48 424.8 55.16 432 64 432H384C392.8 432 400 424.8 400 416V96C400 87.16 392.8 80 384 80z"/>
+                </mask>
+
+                <g mask="url(#mask1)">
+                    <path d="M384 32C419.3 32 448 60.65 448 96V416C448 451.3 419.3 480 384 480H64C28.65 480 0 451.3 0 416V96C0 60.65 28.65 32 64 32H384zM384 80H64C55.16 80 48 87.16 48 96V416C48 424.8 55.16 432 64 432H384C392.8 432 400 424.8 400 416V96C400 87.16 392.8 80 384 80z"/>
+                    <image class="home__blob-img2" x="-85px" y="-300px" xlink:href='big2.jpg'></image>
+                </g>
+                </svg>
+
+
+
+
+
+
+                <div class="col-lg-6 mx-auto">
+                  <p class=" mb-4 about__unfo"> <span style="color: var(--hover);"> Hi there!</span> My name is Oluwalonimi Oyepariola, and I'm a web developer and graphics designer based in Nigeria. With over 3 years of experience in the field, I'm passionate about helping businesses and individuals bring their ideas to life through beautiful and functional design.
+
+                    I earned my degree in Computer Science from Bowen University, where I honed my skills in web development and graphic design. Since then, I've had the pleasure of working with clients from a wide range of industries, including BLEAM luxe, BMA STORE.
+                    
+                    As a web developer, I specialize in creating custom websites using modern technologies like HTML, CSS, JavaScript.<span class="readmore" id="readmore"> Whether you need a simple brochure website or a complex e-commerce platform, I can help you bring your vision to life.
+                    
+                    In addition to web development, I'm also skilled in graphic design. I use tools like Adobe Photoshop, Illustrator, and CorelDRAW to create stunning logos(monogram logos), brochures, business cards, and other marketing materials. I understand the importance of branding and can help you create a consistent visual identity across all of your digital and print assets.
+                    
+                    When I'm not working on web development or design projects, you can usually find me exploring [hobbies or interests], spending time with my family, or volunteering in my community.
+                    
+                    If you're looking for a talented and experienced web developer and graphics designer, I'd love to hear from you! Feel free to reach out to me at [contact information] to learn more about my services and how I can help you achieve your goals. 
+                </span> <span class="about_readmore" id="about_readmore" style="color: var(--hover); font-weight: 600;" onclick="about(this)" > .......read more</span><span class="about_readless" id="about_readless" style="color: var(--hover); font-weight: 600;" onclick="aboutless()">read less</span>
+                                     <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                                <div>
+                                    <span class="about__info-title"> 03+ </span>
+                                    <span class="about__info-name">Years <br> experience</span>
+                                </div>
+
+                                <div>
+                                    <span class="about__info-title"> 20+ </span>
+                                    <span class="about__info-name">Completed <br> project</span>
+                                </div>
+
+                                <div>
+                                    <span class="about__info-title"> 03+ </span>
+                                    <span class="about__info-name">Companies <br> worked</span>
+                                </div>
+
+                                <div class="about__buttons">
+                                    <a download="" href="Cv.pdf" class="button button--flex">
+                                       Download CV <i class='fas fa-download button__icon'></i>
+                                    </a>
+                                </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+
+
+
+<!-- ===========================SKILLS SKILLS SKILLS SKILLS SKILLS========================================================= -->
+
+        <section class="skills section" id="skills">
+            <h2 class="section__title"
+            data-aos="flip-down"
+            data-aos-duration="500"
+            data-aos-delay="200">Skills</h2>
+            <span class="section__subtitle" 
+            data-aos="flip-down"
+            data-aos-duration="500"
+            data-aos-delay="600">My technical level</span>
+            <div class="skills__container1 container1 grid">
+                <div>
+<!-- =======================SKILLS 1====================== -->
+                    <div class="skills__content skills__open"
+                    data-aos="fade-right"
+            data-aos-duration="500"
+            data-aos-delay="600">
+                        <div class="skills__header">
+                            <i class='fa-solid fa-code skills__icon'></i>
+                            <div onclick="uk(this)">
+                                <h1 class="skills__title">Frontend Developer</h1>
+                                <span class="skills__subtitle">More than a year</span>
+                            </div>
+                            <i class="fa-solid fa-angle-down skills__arrow"></i>
+                        </div>
+                        <div class="skills__list grid">
+ <!-- ==================================================================================== -->
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <h3 class="skills__name">HTML <i class="fa-brands fa-html5"></i></h3>
+                                    <span class="skills__number">95%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__html"></span>
+                                </div>
+                            </div>
+<!-- ---------------------------------------------------------------------------------- -->
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <h3 class="skills__name">CSS <i class="fa-brands fa-css3-alt"></i></h3>
+                                    <span class="skills__number">60%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__css"></span>
+                                </div>
+                            </div>
+<!-- --------------------------------------------------------------------------------- -->
+
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <h3 class="skills__name">JavaScript <i class="fa-brands fa-square-js"></i></h3>
+                                    <span class="skills__number">30%</span>
+
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__js"></span>
+                                </div>
+                            </div>
+<!-- ========================================================================= -->
+
+                        </div>
+                    </div>
+
+
+<!-- ======================================================SKILLS 2========= -->
+
+
+                    <!-- ============SKILLS 2========= -->
+
+                    <div class="skills__content skills__close"
+                    data-aos="fade-left"
+            data-aos-duration="500"
+            data-aos-delay="1100">
+                        <div class="skills__header">
+                            <i class='fa-solid fa-pen skills__icon'></i>
+                            <div onclick="uk(this)">
+                                <h1 class="skills__title">Designer</h1>
+                                <span class="skills__subtitle">More than 4 years</span>
+                            </div>
+                            <i class="fa-solid fa-angle-down skills__arrow"></i>
+                        </div>
+                        <div class="skills__list grid">
+ <!-- ==================================================================================== -->
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <h3 class="skills__name">CorelDRAW  <i class="fa-solid fa-pencil"></i></h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__CorelDRAW"></span>
+                                </div>
+                            </div>
+<!-- ---------------------------------------------------------------------------------- -->
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <h3 class="skills__name">Adobe Photosop  <i class="fa-solid fa-image"></i></h3>
+                                    <span class="skills__number">40%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__photoshop"></span>
+                                </div>
+                            </div>
+<!-- --------------------------------------------------------------------------------- -->
+
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <h3 class="skills__name">Illustrator  <i class="fa-solid fa-bezier-curve"></i></h3>
+                                    <span class="skills__number">30%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__illustrator"></span>
+                                </div>
+                            </div>
+<!-- ========================================================================= -->
+
+                        </div>
+                    </div>
+                    <!-- ----------------------------------------------- -->
+
+                    <!--============================================================  -->
+                </div>
+            </div>
+        </section>
+
+
+<!-- ==================QUAALIFICATION QUALIFICATION QUALIFIFCATION========================================================================= -->
+
+
+        <section class="qualification section">
+            <h2 class="section__title"
+            data-aos="flip-down"
+            data-aos-duration="500"
+            data-aos-delay="200">Qualification</h2>
+            <span class="section__subtitle"
+            data-aos="flip-down"
+            data-aos-duration="600"
+            data-aos-delay="200">My personal journey</span>
+
+            <div class="qualification__container1 container1">
+                <div class="qualification__tabs"
+                >
+                    <div class="qualification__button  button--flex" onclick="education(this)"
+                    data-aos="fade-right"
+            data-aos-duration="500"
+            data-aos-delay="200">
+                        <i class="fa-solid fa-book-open button__icon"></i>
+                        Education
+                    </div>
+
+                    <div class="qualification__button button--flex" onclick="works(this)"
+                    data-aos="fade-left"
+            data-aos-duration="500"
+            data-aos-delay="600">
+                        <i class='fas fa-briefcase button__icon'></i>
+                        Works
+                    </div>
+                </div>
+                <div class="qualification__sections">
+                    <!-- ==============================CONTENT 1=========================== -->
+                    <div class="qualification__content" id="education" >
+                        <!-- ===============================1=============== -->
+                        <div class="qualification__data">
+                            <div
+                            data-aos="fade-right"
+                            data-aos-duration="500"
+                            data-aos-delay="1000">
+                                <h3 class="qualification__title">Graphics Design</h3>
+                                <span class="qualification__subtitle">Lux Creations</span>
+                                <div class="qualification__calendar">
+                                    <i class="fa-solid fa-calendar-days button__icon"></i>
+                                        2019 - 2023
+
+                                    <!--  -->
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                        </div>
+
+                        <!-- ==================================TWO -->
+                        <div class="qualification__data">
+
+                            <div></div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                            <div
+                            data-aos="fade-left"
+                            data-aos-duration="500"
+                            data-aos-delay="1400">
+                                <h3 class="qualification__title">Computer Science</h3>
+                                <span class="qualification__subtitle">Bowen University</span>
+                                <div class="qualification__calendar">
+                                    <i class="fa-solid fa-calendar-days button__icon"></i>
+                                        2022 - 2024
+
+                                    <!--  -->
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+                        <!--  ==========================THREEEEEE-->
+
+
+                        <div class="qualification__data">
+
+
+                            <div
+                            data-aos="fade-right"
+                            data-aos-duration="500"
+                            data-aos-delay="1800">
+                                <h3 class="qualification__title">Web Development</h3>
+                                <span class="qualification__subtitle">University Of Michigan</span>
+                                <div class="qualification__calendar">
+                                    <i class="fa-solid fa-calendar-days button__icon"></i>
+                                        2022 - 2023
+
+                                    <!--  -->
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                        </div>
+
+
+
+                        <!--  -->
+
+
+                        <div class="qualification__data">
+                            <div></div>
+
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <!-- <span class="qualification__line"></span> -->
+                            </div>
+
+                            <div
+                            data-aos="fade-left"
+                            data-aos-duration="500"
+                            data-aos-delay="2200">
+                                <h3 class="qualification__title">Web Development</h3>
+                                <span class="qualification__subtitle">META</span>
+                                <div class="qualification__calendar">
+                                    <i class="fa-solid fa-calendar-days button__icon"></i>
+                                        2022 - 2023
+
+                                    <!--  -->
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+<!-- ======================================================================================== -->
+<!-- ======================================CONTENT 2================================================== -->
+                    <div class="qualification__content qualification__active" id="works" >
+                        <!-- ===============================1=============== -->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Graphics Design</h3>
+                                <span class="qualification__subtitle">BLEAM luxe</span>
+                                <div class="qualification__calendar">
+                                    <i class="fa-solid fa-calendar-days button__icon"></i>
+                                        2009 - 2014
+
+                                    <!--  -->
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                        </div>
+
+                        <!-- ==================================TWO -->
+                        <div class="qualification__data">
+
+                            <div></div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">Web Development</h3>
+                                <span class="qualification__subtitle">BMA store</span>
+                                <div class="qualification__calendar">
+                                    <i class="fa-solid fa-calendar-days button__icon"></i>
+                                        2009 - 2014
+
+                                    <!--  -->
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+                        <!--  ==========================THREEEEEE-->
+
+
+                        <div class="qualification__data">
+
+
+                            <div>
+                                <h3 class="qualification__title">Web Development</h3>
+                                <span class="qualification__subtitle">FRONTLINE</span>
+                                <div class="qualification__calendar">
+                                    <i class="fa-solid fa-calendar-days button__icon"></i>
+                                        2009 - 2014
+
+                                    <!--  -->
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <!-- <span class="qualiofication__line"></span> -->
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- FOUR     ==================== -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+ <!--=======================SERVICES==================================== -->
+        <section class="services section" id="services">
+            <h2 class="section__title"'
+            data-aos="flip-down"
+            data-aos-duration="500"
+            data-aos-delay="200"'>Services</h2>
+            <span class="section__subtitle"
+            data-aos="flip-down"
+            data-aos-duration="500"
+            data-aos-delay="600"> What i offer</span>
+
+            <div class="services__container container1 grid">
+                <!-- ------------service 1-------------------------------- -->
+                <!-- <div class="services__content">
+                    <div>
+                        <i class="fas fa-briefcase services__icon"></i>
+                        <h3 class="services__title">UI/UX <br> Designer </h3>
+                    </div>
+                    <span class="button button--flex button--small button--link services__button" onclick="readmore1(this)">
+                        View more <i class="fas fa-arrow-right"></i>
+                    </span>
+                    <div class="services__modal1" id="services1">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">UI/UX <br> Designer</h4>
+                            <i class="fas fa-times services__modal-close" onclick="services1(this)"></i>
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="fas fa-check-circle services__modal-icon"></i>
+                                    <p>I develop the user interface</p>
+                                </li>
+<!-- ======================================== -->
+                                <!-- <li class="services__modal-service">
+                                    <i class="fas fa-check-circle services__modal-icon"></i>
+                                    <p>I develop the user interface</p>
+                                </li> -->
+<!-- =========================================== -->
+                                <!-- <li class="services__modal-service">
+                                    <i class="fas fa-check-circle services__modal-icon"></i>
+                                    <p>I develop the user interface</p>
+                                </li> -->
+<!-- ============================================= -->
+                                <!-- <li class="services__modal-service">
+                                    <i class="fas fa-check-circle services__modal-icon"></i>
+                                    <p>I develop the user interface</p>
+                                </li> -->
+
+                                <!-- ===== -->
+                            <!-- </ul>
+                        </div>
+                    </div>
+                </div> -->
+
+
+                <!-- =============service 2============== -->
+                <div class="services__content"> 
+
+                <div >
+                    <div>
+                        <i class="fas fa-left-right services__icon"></i>
+                        <h3 class="services__title">Frontend <br> Developer </h3>
+                    </div>
+                    <span class="button button--flex button--small button--link services__button" onclick="readmore2(this)">
+                        View more <i class="fas fa-arrow-right"></i>
+                    </span>
+            </div>
+                    <div class="services__modal2" id="services2" onclick="services2(this)"">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">Frontend <br> Developer</h4>
+                            <i class="fas fa-times services__modal-close" onclick="services2(this)"></i>
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="fas fa-check-circle services__modal-icon"></i>
+                                    <p>I develop the user interface</p>
+                                </li>
+<!-- ======================================== -->
+                                <li class="services__modal-service">
+                                    <i class="fas fa-check-circle services__modal-icon"></i>
+                                    <p>I develop the user interface</p>
+                                </li>
+<!-- =========================================== -->
+                                <li class="services__modal-service">
+                                    <i class="fas fa-check-circle services__modal-icon"></i>
+                                    <p>I develop the user interface</p>
+                                </li>
+<!-- ============================================= -->
+                                <li class="services__modal-service">
+                                    <i class="fas fa-check-circle services__modal-icon"></i>
+                                    <p>I develop the user interface</p>
+                                </li>
+
+                                <!-- ===== -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- =============servuces 3333333333============================================== -->
+                <div class="services__content">
+                    <div>
+                        <i class="fas fa-pen services__icon"></i>
+                        <h3 class="services__title">Graphics <br> Designer </h3>
+                    </div>
+                    <span class="button button--flex button--small button--link services__button" onclick="readmore3(this)">
+                        View more <i class="fas fa-arrow-right"></i>
+                    </span>
+                    <div class="services__modal3" id="services3" onclick="services3(this)">
+                        <div class="services__modal-content" >
+                            <h4 class="services__modal-title">Graphics <br> Designer</h4>
+                            <i class="fas fa-times services__modal-close" onclick="services3(this)"></i>
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="fas fa-check-circle services__modal-icon"></i>
+                                    <p>I develop the user interface</p>
+                                </li>
+<!-- ======================================== -->
+                                <li class="services__modal-service">
+                                    <i class="fas fa-check-circle services__modal-icon"></i>
+                                    <p>I develop the user interface</p>
+                                </li>
+<!-- =========================================== -->
+                                <li class="services__modal-service">
+                                    <i class="fas fa-check-circle services__modal-icon"></i>
+                                    <p>I develop the user interface</p>
+                                </li>
+<!-- ============================================= -->
+                                <li class="services__modal-service">
+                                    <i class="fas fa-check-circle services__modal-icon"></i>
+                                    <p>I develop the user interface</p>
+                                </li>
+
+                                <!-- ===== -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- ====================================================================================== -->
+            </div>
+        </section>
+
+
+
+
+
+
+
+        <!-- ====================PORTFOLIO============================================= -->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section__title"
+            data-aos="flip-down"
+            data-aos-duration="500"
+            data-aos-delay="200">Portfolio</h2>
+            <span class="section__subtitle"
+            data-aos="flip-down"
+            data-aos-duration="500"
+            data-aos-delay="600">Most recent works</span>
+            <div class="portfolio__container container1 swiper carousel slide" id="myCarousel" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                  </div>
+                <div class="carousel-inner">
+                    <!-- Portfolio11========================== -->
+
+
+                    <div class="portfolio__content grid carousel-item active">
+                        <img src="BMA.jpg" alt="" class="portfolio__img bd-placeholder-img " width="50%" >
+
+                        <div class="portfolio__data container">
+                            <div class="carousel-caption text-start">
+                            <h3 class="portfolio__title">BMA STORE</h3>
+                            <p class="portfolio__description">
+                                BMA STORE is an ecommerce <br> store used to sell clothes and <br> books online. <br>BMA store target at least 1000 <br> audience a day
+                            </p>
+                            <a href="# " class="button button--flex button--small portfolio__button">
+                                Demo <i class="fas fa-arrow-right"></i>
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+<!-- =======================Portfolio 2222============================================ -->
+                    <div class="portfolio__content grid carousel-item">
+                        <img src="PIZZA.jpg" alt="" class="portfolio__img bd-placeholder-img">
+
+                        <div class="portfolio__data container">
+                            <div class="carousel-caption">
+                            <h3 class="portfolio__title">LUX's PIZZA HUT</h3>
+                            <p class="portfolio__description">
+                                Lux's Pizza Hut is a popular pizza restaurant that offers a wide range of delicious pizza options. From classic pepperoni to gourmet toppings, their menu is sure to satisfy any pizza lover's craving.
+                            </p>
+                            <a href="# " class="button button--flex button--small portfolio__button">
+                                Demo <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- =========================Portfolio 3333========================================== -->
+                    <div class="portfolio__content grid carousel-item">
+                        <img src="FRONTLINE.jpg" alt="" class="portfolio__img bd-placeholder-img">
+
+                        <div class="portfolio__data container">
+                            <div class="carousel-caption text-end">
+                            <h3 class="portfolio__title">FRONTLINE</h3>
+                            <p class="portfolio__description">
+                                Frontline is a premier destination for game enthusiasts looking for the latest and greatest games on the market. With a wide range of options from video games to board games and everything in between, Frontline has something for everyone.
+                            </p>
+                            <a href="# " class="button button--flex button--small portfolio__button">
+                                Demo <i class="fas fa-arrow-right"></i>
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+<!-- ====================================== PORTFOLIO 4 -->
+
+                    <div class="portfolio__content grid carousel-item">
+                        <img src="luxcreationsnew.jpg"" class="portfolio__img bd-placeholder-img">
+
+                        <div class="portfolio__data container">
+                            <div class="carousel-caption text-end">
+                            <h3 class="portfolio__title">LUX CREATIONS</h3>
+                            <p class="portfolio__description">
+                            </p>
+                            <a href="# " class="button button--flex button--small portfolio__button">
+                                Demo <i class="fas fa-arrow-right"></i>
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ====================================== PORTFOLIO 5 -->
+
+                    <div class="portfolio__content grid carousel-item">
+                        <img src="CS.jpg" alt="" class="portfolio__img bd-placeholder-img">
+
+                        <div class="portfolio__data container">
+                            <div class="carousel-caption text-end">
+                            <h3 class="portfolio__title">CASSANO SECRET</h3>
+                            <p class="portfolio__description">
+                                Cassano Secret Logo is a leading brand in the body deodorant industry, known for its high-quality and long-lasting products. Their signature line of deodorants is specially formulated to keep you feeling fresh and confident all day long, even in the most demanding situations
+                            </p>
+                            <a href="# " class="button button--flex button--small portfolio__button">
+                                Demo <i class="fas fa-arrow-right"></i>
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ====================================== PORTFOLIO 6 -->
+                    <div class="portfolio__content grid carousel-item">
+                        <img src="KA.jpg" alt="" class="portfolio__img bd-placeholder-img">
+
+                        <div class="portfolio__data container">
+                            <div class="carousel-caption text-end">
+                            <h3 class="portfolio__title">KATHERINE's APPAREL</h3>
+                            <p class="portfolio__description">
+                                Katherine's Apparel is a premier clothing brand that offers a unique and stylish collection of clothing for men and women. From casual wear to formal attire, Katherine's Apparel has something for every occasion.
+                            </p>
+                            <a href="# " class="button button--flex button--small portfolio__button">
+                                Demo <i class="fas fa-arrow-right"></i>
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ================= -->
+                </div>
+
+                    <!-- -------------------------------------------------- -->
+<!-- -------------------------============================================ -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+            </div>
+        </section>
+
+
+
+
+
+        <!-- Project in mind -->
+        <section class="project section"
+        data-aos="fade-up"
+            data-aos-duration="500"
+            data-aos-delay="500">
+            <div class="project__bg">
+                <div class="project__container container1 grid">
+                    <div class="project__data">
+                        <h2 class="project__title">You have a new project</h2>
+                        <p class="project__description">Contact us now and get a 30% discount on your project now</p>
+                        <a href="#contact" class="button button--flex button--white">Contact me <i class="fas fa-briefcase"></i></a>
+                    </div>
+
+                    <img src="contact.svg" alt="" class="project__img">
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+        <!-- Testimonials ===========================================-->
+        <section class="testimonial section content__testimonial">
+            <h2 class="section__title"
+            data-aos="flip-down"
+            data-aos-duration="500"
+            data-aos-delay="200">Testimonial</h2>
+            <span class="section__subtitle"
+            data-aos="flip-down"
+            data-aos-duration="500"
+            data-aos-delay="600">My client saying</span>
+
+            <div class="testimonial__container container1 carousel slide" id="myCarousel" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                <div class="carousel-inner try">
+                    <!-- Testimonial 1 -->
+                    <div class="testimonial__content carousel-item active">
+                        <div class="bd-placeholder-img background">
+                        <div class="container">
+                        <div class="testimonial__data">
+                            <div class="testimonial__header">
+                                <img src="user3.jpg" alt="" class="testimonial__img">
+
+                                <div>
+                                    <h3 class="testimonial__name">Janet Akingboye</h3>
+                                    <span class="testimonial__client">Client</span>
+                                </div>
+                            </div>
+                            <div>
+                                <i class="fas fa-star testimonial__icon-star"></i>
+                                <i class="fas fa-star testimonial__icon-star"></i>
+                                <i class="fas fa-star testimonial__icon-star"></i>
+                                <i class="fas fa-star testimonial__icon-star"></i>
+                                <i class="fas fa-star testimonial__icon-star"></i>
+                            </div>
+                        </div>
+                        <p class="testimonial__description">Working with nimi was an absolute pleasure. He took his time to understand our business needs and create a website that not only looks amazing but functions perfectly. He was always available to answer questions and provide updates throughout the process. Highly recommend!
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!-- 2222222222222 -->
+                    <div class="testimonial__content carousel-item">
+                        <div class="bd-placeholder-img background">
+                            <div class="container">
+                                <div class="testimonial__data">
+
+                            <div class="testimonial__header">
+                                <img src="user1.jpeg" alt="" class="testimonial__img">
+                                <div>
+                                    <h3 class="testimonial__name">John Smith</h3>
+                                    <span class="testimonial__client">Client</span>
+                                </div>
+                            </div>
+                            <div>
+                                <i class="fas fa-star testimonial__icon-star"></i>
+                                <i class="fas fa-star testimonial__icon-star"></i>
+                                <i class="fas fa-star testimonial__icon-star"></i>
+                                <i class="fas fa-star testimonial__icon-star"></i>
+                                <i class="fas fa-star testimonial__icon-star"></i>
+                            </div>
+                        </div>
+                        <p class="testimonial__description">I had a tight deadline for my website project, and he was able to deliver on time without sacrificing quality. He was able to create a custom design that looks fantastic and functions perfectly. I appreciated their professionalism and attention to detail throughout the process.
+                            </p>
+                        </div>
+                        </div>
+                    </div>
+
+
+<!-- 333333333333333333333333333333333333333333333333333333333333333333333 -->
+
+
+                    <div class="testimonial__content carousel-item">
+                        <div class="bd-placeholder-img background">
+                            <div class="container">
+                        <div class="testimonial__data">
+                            <div class="testimonial__header">
+                                <img src="user2.jpg" alt="" class="testimonial__img">
+
+                                <div>
+                                    <h3 class="testimonial__name">David Lee</h3>
+                                    <span class="testimonial__client">Client</span>
+                                </div>
+                            </div>
+                            <div>
+                                <i class="fas fa-star testimonial__icon-star"></i>
+                                <i class="fas fa-star testimonial__icon-star"></i>
+                                <i class="fas fa-star testimonial__icon-star"></i>
+                                <i class="fas fa-star testimonial__icon-star"></i>
+                                <i class="fas fa-star testimonial__icon-star"></i>
+                            </div>
+                        </div>
+                        <p class="testimonial__description">I worked with nimi on a complex project that required a lot of custom coding, and they did an excellent job. He was able to troubleshoot and solve every issue that arose, and the end result is a website that works flawlessly. I would definitely recommend nimi to anyone looking for a skilled and reliable web developer
+                            </p>
+                            </div>
+                        </div>
+                    </div>
+
+<!-- -------------------------------------------------------------------------------------- -->
+
+
+
+
+
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                    <!-- <span class="carousel-control-prev-icon prev" aria-hidden="true"></span> -->
+                    <span class="visually-hidden ">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                    <!-- <span class="carousel-control-next-icon next"  aria-hidden="true"></span> -->
+                    <span class="visually-hidden">Next</span>
+                  </button>
+            </div>
+        </section>
+        <br>
+        <br>
+        <br>
+
+
+
+
+
+
+
+
+        <section class="contact section" id="contact">
+            <h2 class="section__title"
+            data-aos="flip-down"
+            data-aos-duration="500"
+            data-aos-delay="200">Contact Me</h2>
+            <span class="section__subtitle"
+            data-aos="flip-down"
+            data-aos-duration="500"
+            data-aos-delay="600">Get In Touch</span>
+
+            <div class="contact__container container1 grid">
+                <div>
+                    <div class="contact__information"
+                    data-aos="fade-right"
+            data-aos-duration="500"
+            data-aos-delay="200">
+                        <i class="fas fa-phone contact__icon"></i>
+
+                    <div>
+                    <h3 class="contact__title">Call Me</h3>
+                    <span class="contact__subtitle">+234 9053003143</span>
+                </div>
+            </div>
+
+<!-- ======================================================================== -->
+            <div class="contact__information"
+            data-aos="fade-right"
+            data-aos-duration="500"
+            data-aos-delay="600">
+                <i class="fas fa-message contact__icon"></i>
+
+            <div>
+            <h3 class="contact__title">Message Me</h3>
+            <span class="contact__subtitle">+234 9053003143</span>
+        </div>
+    </div>
+
+
+<!-- ==================================================================================== -->
+            <div class="contact__information"
+            data-aos="fade-right"
+            data-aos-duration="500"
+            data-aos-delay="1000">
+                <i class="fas fa-g contact__icon"></i>
+
+            <div>
+            <h3 class="contact__title">Email Me</h3>
+            <span class="contact__subtitle">oluwalonimioyepariola@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <form action="" class="contact__form grid">
+                    <div class="contact__inputs grid">
+                        <div class="contact__content"
+                        data-aos="fade-left"
+                        data-aos-duration="500"
+                        data-aos-delay="200">
+                            <label for="" class="contact__label">Name</label>
+                            <input type="text" class="contact__input">
+                        </div>
+
+                        <div class="contact__content"
+                        data-aos="fade-left"
+                        data-aos-duration="500"
+                        data-aos-delay="600">
+                            <label for="" class="contact__label">Email</label>
+                            <input type="email" class="contact__input">
+                        </div>
+                    </div>
+
+                    <div class="contact__content"
+                    data-aos="fade-left"
+                    data-aos-duration="500"
+                    data-aos-delay="1000">
+                        <label for="" class="contact__label">Project</label>
+                        <input type="text" class="contact__input">
+                    </div>
+                    <div class="contact__content"
+                    data-aos="fade-up"
+                    data-aos-duration="500"
+                    data-aos-delay="1500">
+                        <label for="" class="contact__label">Message</label>
+                        <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                    </div>
+
+                    <div
+                    data-aos="fade-up"
+                    data-aos-duration="500"
+                    data-aos-delay="1700">
+                        <a href="" class="button button--flex">
+                            Send Message
+                            <i class="fas fa-message button__icon"></i>
+                        </a>
+                    </div>
+                </form>
+            </div>
+    </section>
+</main>
+
+<div class="b-example-divider"></div>
+
+<div class="container footer">
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="#home" class="nav-link px-2 text-muted foot ">Home</a></li>
+        <li class="nav-item"><a href="#about" class="nav-link px-2 text-muted foot ">About</a></li>
+        <li class="nav-item foot"><a href="#contact" class="nav-link px-2 text-muted foot ">Contact Us</a></li>
+        <li class="nav-item"><a href="https://twitter.com/NimiTheTechie" class="nav-link px-2 text-muted  foot fa-brands fa-twitter" target="blank"></a></li>
+        <li class="nav-item"><a href="https://instagram.com/lux_urios1" class="nav-link px-2 text-muted foot  fa-brands fa-instagram" target="blank"></a></li>
+        <li class="nav-item"><a href="https://api.whatsapp.com/send/?phone=09053003143&text&type=phone_number&app_absent=0" 
+            class="nav-link px-2 text-muted  foot fa-brands fa-whatsapp" target="blank"></a></li>
+      </ul>
+      <p class="text-center text-muted">Oyepariola Oluwalonimi</p>
+    </footer>
+  </div>
+
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
